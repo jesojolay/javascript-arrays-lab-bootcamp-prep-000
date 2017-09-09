@@ -15,11 +15,11 @@ function destructivelyRemoveLastKitten() {
     kittens.pop();
     return kittens;
 }
-//
-// function destructivelyRemoveFirstKitten() {
-//    kittens.shift();
-//    return kittens;
-// }
+
+function destructivelyRemoveFirstKitten() {
+   kittens.shift();
+   return kittens;
+}
 //
 // function appendKitten(name) {
 //   var newarr = kittens[...kittens, name];
