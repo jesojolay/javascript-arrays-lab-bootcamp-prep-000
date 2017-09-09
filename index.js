@@ -20,11 +20,11 @@ function destructivelyRemoveFirstKitten() {
    kittens.shift();
    return kittens;
 }
-//
-// function appendKitten(name) {
-//   var newarr = kittens[...kittens, name];
-//   return newarr;
-// }
+
+function appendKitten(name) {
+  var newarr = kittens[...kittens, name];
+  return newarr;
+}
 //
 // function prependKitten(name) {
 //   var newarr = kittens[name, ...kittens];
